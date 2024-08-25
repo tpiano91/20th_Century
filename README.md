@@ -28,28 +28,28 @@
 
 ### Step 1: Set up Virtual Workspace
 
-##### Create virtual environment and install necessary libraries (see in "Tools/Skills Used" Section)
+###### Create virtual environment and install necessary libraries (see in "Tools/Skills Used" Section)
 
 ### Step 2: Data Collection (Text Data)
 
-##### Using Beautiful Soup, scrape data from web page
-##### Save scraped file as "20th_Century_Scrape.txt"
+###### Using Beautiful Soup, scrape data from web page
+###### Save scraped file as "20th_Century_Scrape.txt"
 
 ### Step 3: Text Mining: Data Cleaning and Initial Exploration (Notebook 1.5)
 
-##### Tokenization of Words: Remove stop words and punctuation
-##### Create lists according to parts of speech
-##### Plot bar chart of top words for each POS: nouns, verbs and adjectives
-##### Create and save dataframe of countries and how many times they are mentioned in the text
-##### Plot bar chart of how many times each country is mentioned in text 
+###### Tokenization of Words: Remove stop words and punctuation
+###### Create lists according to parts of speech
+###### Plot bar chart of top words for each POS: nouns, verbs and adjectives
+###### Create and save dataframe of countries and how many times they are mentioned in the text
+###### Plot bar chart of how many times each country is mentioned in text 
 
 ### Step 4: NLP and Network Analysis (Notebook 1.6)
 
-##### Create NER Object from Text
-##### Split sentence entities, and get named entity list per sentence (two columns)
-##### Using countries list (from separate csv file of country names), filter the entities from the text, retrieving only country names (as a third column)
-##### Define relationships between countries: if countries are mentioned within five sentences of each other, there is an interaction
-##### Summarize the interactions between countries in a new dataframe: save data frame as "countries_relationships.csv"
+###### Create NER Object from Text
+###### Split sentence entities, and get named entity list per sentence (two columns)
+###### Using countries list (from separate csv file of country names), filter the entities from the text, retrieving only country names (as a third column)
+###### Define relationships between countries: if countries are mentioned within five sentences of each other, there is an interaction
+###### Summarize the interactions between countries in a new dataframe: save data frame as "countries_relationships.csv"
 
 ### Step 5: Create Network Visualizations
 
