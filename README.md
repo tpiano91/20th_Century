@@ -53,6 +53,12 @@
 
 ### Step 5: Create Network Visualizations
 
+#### Network Graph of Countries' Communities
+
+I created a network graph to visualize the communities among countries. You can view the interactive graph by clicking the link below:
+
+[View Network Graph](countries_communities_leiden.html)
+
 ## Insights
 
 ## Recommendations
