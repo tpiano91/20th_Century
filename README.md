@@ -57,7 +57,7 @@
 
 I created a network graph to visualize the communities among countries. You can view the interactive graph by clicking the link below:
 
-[View Network Graph](countries_communities_leiden.html)
+[View Network Graph](Files/countries_communities_leiden.html)
 
 ## Insights
 
