@@ -53,13 +53,58 @@
 
 ### Step 5: Create Network Visualizations
 
-#### Network Graph of Countries' Communities
+#### Create static network graph (NetworkX)
 
-I created a network graph to visualize the communities among countries. You can view the interactive graph by clicking the link below:
+![Network Graph Static](Files/networkx_plt_countries.png)
 
-[View Network Graph](Files/countries_communities_leiden.html)
+#### Create interactive network graph using pyvis
+
+#### ![Network Graph Interactive](Images/countries.png)
+
+#### [View HTML File](Files/countries.html)
+
+#### Apply the Leiden algorithm to detect any communities - visualize the new network graph and record initial insights
+
+#### ![Network Graph Interactive](Images/countries_communities_leiden.png)
+
+#### [View HTML File](Files/countries_communities_leiden.html)
+
+#### Calculate and visualize the degree, closeness, and betweenness centrality measures and record insights:
 
 ## Insights
+
+### Leiden Algorithm
+
+#### Communities: The Leiden algorithm split the listed countries into six communities, indicated by the six different colors of the edges. 
+##### The communities seem to largely be based off of geographical locations of each country: for example, the pink community consists of Scandinavia and Benelux; the blue community contains most of the "key players" in Europe associated with the two world wars (such as Germany, France, Russia, and Italy). 
+##### The red, orange and purple groups contain mostly non-European countries, though there are some curious findings in these communities: for example, in the red group, why is Mongolia grouped with Cuba, Canada, Australia and the USA? In the organge group, Cambodia seems to act as a link between Asian and African countries.
+
+#### Bridges: Specific countries acted as "bridges" or "links" between different communities. 
+##### The United States and Russia act as bridges between the "red" and "blue" neighborhoods. 
+
+#### Thickness of the Edges: displays which countries played particularly imporant roles. 
+##### In this case, Germany has five of the visibly thickest edges to Italy, Poland, Russia, France and Japan (which makes sense given the context of the two world wars). 
+##### Other thick edges can be seen in other communities: India to Japan and Pakistan (orange); and Libya and Egypt (purple).
+
+### Degree Centrality
+
+#### ![Degree Centrality](Images/degree_centrality.png)
+
+##### Germany ranks first in all three degrees of centrality. With regards to degree centrality, this means that Germany has the highest number of connections (edges) to other countries (nodes). Japan, Russia, France, India and Italy also have high degrees of centrality. India's connections are mostly in the orange community, whereas Japan has connections to both the orange and blue communities.
+
+### Closeness Centrality
+
+#### ![Closeness Centrality](Images/closeness_centrality.png)
+
+##### Germany ranks the top of the list again, though in this case, its closeness centrality measure is higher (closer to 0.4) than the degree centrality (which was closer to 0.25). This indicates that Germany is in close proximity to other countries, displayed by the thickness of its edges to other nodes. This makes sense as Germany was arguably the most active or powerful country in both World Wars.
+
+##### Japan, Russia, France and Italy once again rank higher here as well. India ranks lower than the aforementioned countries in terms of closeness indicating that while it has a similar number of connections, India's ability to communicate or control information through their networks is not as strong as Japan and the aforementioned European countries.
+
+### Betweenness centrality
+
+#### ![Betwenness Centrality Interactive](Images/betweenness_centrality.png)
+
+##### The ranking in this Betweenness Centrality graph is a bit different compared to the other two. Germany again ranks at the top, indicating that the paths and connections they have make it easy for them to connect with other countries outside of their communities, funcitoning as a bridge. The next most efficient "bridge" countries on the list include Japan, Russia, the Philippines and Cambodia - the latter two did not rank as highly on the other two graphs.
 
 ## Recommendations
 
