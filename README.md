@@ -26,9 +26,29 @@
 
 ## Analysis
 
-### Step 1: Data Collection and Prep
+### Step 1: Set up Virtual Workspace
+
+##### Create virtual environment and install necessary libraries (see in "Tools/Skills Used" Section)
+
+### Step 2: Data Collection (Text Data)
 
 ##### Using Beautiful Soup, scrape data from web page
-#####
+##### Save scraped file as "20th_Century_Scrape.txt"
 
-### Step 2: 
+### Step 3: Text Mining: Data Cleaning and Initial Exploration (Notebook 1.5)
+
+##### Tokenization of Words: Remove stop words and punctuation
+##### Create lists according to parts of speech
+##### Plot bar chart of top words for each POS: nouns, verbs and adjectives
+##### Create and save dataframe of countries and how many times they are mentioned in the text
+##### Plot bar chart of how many times each country is mentioned in text 
+
+### Step 4: NLP and Network Analysis
+
+### Step 5: Create Network Visualizations
+
+## Insights
+
+## Recommendations
+
+##### As this project is part of a larger-scale research initiative (by the Institute for Public Policy), the listed insights serve as a springboard/foundation for further research. My recommendations for further research include the following:
