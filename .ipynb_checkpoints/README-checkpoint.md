@@ -4,7 +4,7 @@
 
 ## Project Objective
 
-##### As a freelance analyst contracted by the Institute for Public Policy to give an analytical overview and visualization of the interrelations between countries throughout the twentieth century. Given the volatility of world politics, the Institute is looking for historical ties between different countries to inform its research.
+##### As a freelance analyst contracted by the Institute for Public Policy, the objective is to give an analytical overview and visualization of the interrelations between countries throughout the twentieth century. Given the volatility of world politics, the Institute is looking for historical ties between different countries to inform its research.
 
 ##### Many new job positions seek freelancers, so you’ll need to choose which tools you’ll use to structure your schedule and complete the assigned task. As a freelancer, some of the most common tasks you’ll receive will require you to create visualizations to share your results. Academic institutions, startups, and other companies hire freelance data analysts to interpret and explain data that can help fit into the context of larger projects.
 
