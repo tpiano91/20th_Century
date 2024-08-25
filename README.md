@@ -43,7 +43,13 @@
 ##### Create and save dataframe of countries and how many times they are mentioned in the text
 ##### Plot bar chart of how many times each country is mentioned in text 
 
-### Step 4: NLP and Network Analysis
+### Step 4: NLP and Network Analysis (Notebook 1.6)
+
+##### Create NER Object from Text
+##### Split sentence entities, and get named entity list per sentence (two columns)
+##### Using countries list (from separate csv file of country names), filter the entities from the text, retrieving only country names (as a third column)
+##### Define relationships between countries: if countries are mentioned within five sentences of each other, there is an interaction
+##### Summarize the interactions between countries in a new dataframe: save data frame as "countries_relationships.csv"
 
 ### Step 5: Create Network Visualizations
 
