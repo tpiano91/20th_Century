@@ -17,5 +17,18 @@
 ##### Suitable results can be achieved by looking at major global events throughout the twentieth century. To do so, you’ll need to give a visualization and an analysis of the chain of events that led to the current state of affairs. To be effective, your visualization must highlight these past relationships. This way, other researchers can understand and tie your findings into the final report.
 
 ## Tools/Skills Used
-##### Skills: Web scraping, text mining, Natural  Language Processing (NLP), Network Analysis Visualization
+##### Skills: Web scraping, text mining, Natural Language Processing (NLP), Network Analysis Visualization, Data Cleaning and Prep, Data Wrangling
 ##### Python: pandas, numpy, os, matplotlib.pyplot, seaborn, textblob, nltk, spacy, networkx, scipy, requests, beautifulsoup
+
+## Data
+##### Text data from Wikipedia ("Key Events of the 20th Century") will be scraped for this project's analysis
+##### https://en.wikipedia.org/wiki/Key_events_of_the_20th_century
+
+## Analysis
+
+### Step 1: Data Collection and Prep
+
+##### Using Beautiful Soup, scrape data from web page
+#####
+
+### Step 2: 
