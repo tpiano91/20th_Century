@@ -69,7 +69,7 @@
 
 #### [View HTML File](Files/countries_communities_leiden.html)
 
-#### Calculate and visualize the degree, closeness, and betweenness centrality measures and record insights:
+#### Calculate and visualize the degree, closeness, and betweenness centrality measures and record insights (See in next section)
 
 ## Insights
 
@@ -106,6 +106,15 @@
 
 ###### The ranking in this Betweenness Centrality graph is a bit different compared to the other two. Germany again ranks at the top, indicating that the paths and connections they have make it easy for them to connect with other countries outside of their communities, funcitoning as a bridge. The next most efficient "bridge" countries on the list include Japan, Russia, the Philippines and Cambodia - the latter two did not rank as highly on the other two graphs.
 
-## Recommendations
+## Recommendations for Further Research
 
 #### As this project is part of a larger-scale research initiative (by the Institute for Public Policy), the listed insights serve as a springboard/foundation for further research. My recommendations for further research include the following:
+
+###### 1. The visualizations display which countries played important roles in international relations in the 20th century overall, but does not display a timeline of events. Depending on the objectives of the initiative, I recommend considering the years/times certain important global events took place. 
+
+###### 2. Centrality Mesaures: the betweenness centrality measure provided the slightly different results/rankings as the other two - I recommend further study on the roles that high-ranking countries in this category played, both within their assigned community and on a global scale. Of the countries that ranked high here, I also recommend making a distinction between those that also ranked highly in the other two centrality measures and those that did not (such as the Philippines). Can any trends be uncovered there? I also recommend researching countries that scored high in the other two categories but low in betweenness centrality (such as France).
+
+###### 3. 
+
+
+
