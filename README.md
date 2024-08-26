@@ -77,7 +77,7 @@
 
 #### Communities: The Leiden algorithm split the listed countries into six communities, indicated by the six different colors of the edges. 
 ###### The communities seem to largely be based off of geographical locations of each country: for example, the pink community consists of Scandinavia and Benelux; the blue community contains most of the "key players" in Europe associated with the two world wars (such as Germany, France, Russia, and Italy). 
-###### The red, orange and purple groups contain mostly non-European countries, though there are some curious findings in these communities: for example, in the red group, why is Mongolia grouped with Cuba, Canada, Australia and the USA? In the organge group, Cambodia seems to act as a link between Asian and African countries.
+###### The red, orange and purple groups contain mostly non-European countries, though there are some curious findings in these communities: for example, in the red group, why is Mongolia grouped with Cuba, Canada, Australia and the USA? In the orange group, Cambodia seems to act as a link between Asian and African countries.
 
 #### Bridges: Specific countries acted as "bridges" or "links" between different communities. 
 ###### The United States and Russia act as bridges between the "red" and "blue" neighborhoods. 
@@ -114,7 +114,7 @@
 
 ###### 2. Centrality Mesaures: the betweenness centrality measure provided the slightly different results/rankings as the other two - I recommend further study on the roles that high-ranking countries in this category played, both within their assigned community and on a global scale. Of the countries that ranked high here, I also recommend making a distinction between those that also ranked highly in the other two centrality measures and those that did not (such as the Philippines). Can any trends be uncovered there? I also recommend researching countries that scored high in the other two categories but low in betweenness centrality (such as France).
 
-###### 3. 
+###### 3. The Leiden algorithm classified six communities, which mostly correspond to countries within the same geographic location. However, there are some anomalies within the communities. Within the red group (consisting of countries in the Americas), why is Mongolia here? The orange group contains mostly countries in Africa and Southeast Asia - however, why does South Africa seem to have closer ties to the Asian countries in this group?
 
 
 
