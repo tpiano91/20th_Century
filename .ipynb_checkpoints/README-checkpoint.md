@@ -117,5 +117,5 @@
 
 ###### 3. The Leiden algorithm classified six communities, which mostly correspond to countries within the same geographic location. However, there are some anomalies within the communities. Within the red group (consisting of countries in the Americas), why is Mongolia here? The orange group contains mostly countries in Africa and Southeast Asia - however, why does South Africa seem to have closer ties to the Asian countries in this group?
 
-###### 4. Keep note that, as previously mentioned, two countries with thin edges in between (or no edge) does not necessarily equate to no strong relationship. Further analysis within communities can uncover further meaningful or significant relationships between countries. I also recommend a focused consideration of countries that act as bridges between two communities.
+###### 4. Keep note that, as previously mentioned, two countries with thin edges in between (or no edge) does not necessarily equate to no strong relationship. Further analysis within communities can uncover further meaningful or significant relationships between countries. I also recommend a focused consideration of countries that act as bridges between two communities, as the 20th century was a time of increased interconnectivity on a global scale.
 
