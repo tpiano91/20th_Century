@@ -85,6 +85,7 @@
 #### Thickness of the Edges: displays which countries played particularly imporant roles. 
 ###### In this case, Germany has five of the visibly thickest edges to Italy, Poland, Russia, France and Japan (which makes sense given the context of the two world wars). 
 ###### Other thick edges can be seen in other communities: India to Japan and Pakistan (orange); and Libya and Egypt (purple).
+###### Important to note that two countries with a thin edge in between (or no edge) does not necessarily mean that there is a weak relationship between the two (or no relationship). This may mean that one or both of the countries were not mentioned in the text or especially prevalent on the global stage during the 20th century.
 
 ### Degree Centrality
 
@@ -116,5 +117,5 @@
 
 ###### 3. The Leiden algorithm classified six communities, which mostly correspond to countries within the same geographic location. However, there are some anomalies within the communities. Within the red group (consisting of countries in the Americas), why is Mongolia here? The orange group contains mostly countries in Africa and Southeast Asia - however, why does South Africa seem to have closer ties to the Asian countries in this group?
 
-
+###### 4. Keep note that, as previously mentioned, two countries with thin edges in between (or no edge) does not necessarily equate to no strong relationship. Further analysis within communities can uncover further meaningful or significant relationships between countries. I also recommend a focused consideration of countries that act as bridges between two communities.
 
